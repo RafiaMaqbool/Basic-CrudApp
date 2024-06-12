@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5dbf7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;/*brings form to center*/
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    border-style: solid;
+    background: rgb(249, 171, 202);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin: 50px;
+}
+
+form {    
+    flex-direction: column;
+    
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    padding: 15px 50px;
+    background-color: #7e2da6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 0 auto;
+}
+
+button[type="submit"]:hover {
+    background-color: #b30098;
+}
+
+#List {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#List th, #List td {
+    border: 3px solid #4f1953;
+    padding: 8px;
+    text-align: left;
+}
+
+#List th {
+    background-color: #cb98ed;
+}
+
+.object-actions button {
+    background-color: #dc3559;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 5px;
+}
+
+.object-actions button:hover {
+    background-color: #3123c8;
+}

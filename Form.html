@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Basic CRUD App</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Basic CRUD App</h1>
+        <form id="CrudForm">
+            <div class="form-group">
+                <label for="Name">Name:</label>
+                <input type="text" id="Name" required>
+            </div>
+            <div class="form-group">
+                <label for="Email">Email:</label>
+                <input type="text" id="Email" required>
+            </div>
+            <button type="submit">Add</button>
+        </form>
+        <table id="List">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Existing items will be displayed here -->
+            </tbody>
+        </table>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
